@@ -4,8 +4,8 @@ from temas import TEMAS
 from consts import HEADER
 
 def mensagem_bemvindo():
-    print(Colors.MAGENTA + HEADER)    
-    print(Style.BOLD + Colors.RED + "Bem-vindo ao Jogo da Forca!" + Style.RESET)
+    print(Colors.RED + HEADER)    
+    print(Style.BOLD + Colors.MAG + "Bem-vindo ao Jogo da Forca!" + Style.RESET)
 
 def iniciacao_jogo():
     while True:
